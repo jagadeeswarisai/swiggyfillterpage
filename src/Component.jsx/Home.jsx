@@ -4,20 +4,20 @@ import {  Outlet,Link} from 'react-router-dom';
 import"./Home.css";
 import Item from './Item';
 const items=[
-    {img: require("./images/image1.jpg"),HotelName:"BriyaniVeedu",Rating:"41 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
-    {img: require("./images/images2.jpg"),HotelName:"ThalapakattuBriyani",Rating:"47 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
-    {img: require("./images/images3.jpg"),HotelName:"BaiBriyani",Rating:"25mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
-    {img: require("./images/images4.jpg"),HotelName:"SurGuru",Rating:"15 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
-    {img: require("./images/images5.jpg"),HotelName:"AnandhaBhavan",Rating:"10 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
-    {img: require("./images/images6.jpg"),HotelName:"VegMeals",Rating:"55 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
-    {img: require("./images/image7.jpg"),HotelName:"PizzaHuts",Rating:"35 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
-    {img: require("./images/images8.jpg"),HotelName:"Pizzas",Rating:"15 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
-    {img: require("./images/images9.jpg"),HotelName:"KingBurger",Rating:"45 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
- {img: require("./images/images10.jpg"),HotelName:"TopCrispyBurger",Rating:"40 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
- {img: require("./images/images11.jpg"),HotelName:"KFCBytes",Rating:"20 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
- {img: require("./images/images12.jpg"),HotelName:"CrispyChicken",Rating:"15 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." }, 
- {img: require("./images/images16.jpg"),HotelName:"IceInHouse",Rating:"55 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
- {img: require("./images/images15.jpg"),HotelName:"Waffers",Rating:"35 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
+    {img: require("./Pictures/image1.jpg"),HotelName:"BriyaniVeedu",Rating:"41 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
+    {img: require("./Pictures/images2.jpg"),HotelName:"ThalapakattuBriyani",Rating:"47 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
+    {img: require("./Pictures/images3.jpg"),HotelName:"BaiBriyani",Rating:"25mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
+    {img: require("./Pictures/images4.jpg"),HotelName:"SurGuru",Rating:"15 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
+    {img: require("./Pictures/images5.jpg"),HotelName:"AnandhaBhavan",Rating:"10 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
+    {img: require("./Pictures/images6.jpg"),HotelName:"VegMeals",Rating:"55 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
+    {img: require("./Pictures/image7.jpg"),HotelName:"PizzaHuts",Rating:"35 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
+    {img: require("./Pictures/images8.jpg"),HotelName:"Pizzas",Rating:"15 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
+    {img: require("./Pictures/images9.jpg"),HotelName:"KingBurger",Rating:"45 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
+ {img: require("./Pictures/images10.jpg"),HotelName:"TopCrispyBurger",Rating:"40 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
+ {img: require("./Pictures/images11.jpg"),HotelName:"KFCBytes",Rating:"20 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
+ {img: require("./Pictures/images12.jpg"),HotelName:"CrispyChicken",Rating:"15 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." }, 
+ {img: require("./Pictures/images16.jpg"),HotelName:"IceInHouse",Rating:"55 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
+ {img: require("./Pictures/images15.jpg"),HotelName:"Waffers",Rating:"35 mins",ShopName:"NorthIndia,SouthIndia", Location:"Pudhucherry." },
  
 
 ]   
@@ -54,7 +54,7 @@ function Home()
                   {/* Wrap each item with Link and specify the route */}
                   <div>
                     {/* ... Your filtered item rendering ... */}
-                    <img src={item.img} alt={`Image ${index + 1}`} id="image1" />
+                    <img src={item.img} alt="food Images{`Image ${index + 1}`}" id="image1"/>
                     <div className="item-text">
                       <p id="hotelname">{item.HotelName}</p>
                       <p id="rating">{item.Rating}</p>
@@ -69,7 +69,7 @@ function Home()
                   {/* Wrap each item with Link and specify the route */}
                   <div>
                     {/* ... Your original item rendering ... */}
-                    <img src={item.img} alt={`Image ${index + 1}`} id="image1" />
+                    <img src={item.img} alt=" An Food{`Image ${index + 1}`} "id="image1" />
                     <div className="item-text">
                       <p id="hotelname">{item.HotelName}</p>
                       <p id="rating">{item.Rating}</p>
