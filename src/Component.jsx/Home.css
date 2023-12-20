@@ -1,0 +1,86 @@
+.hai
+{
+    width:500px;
+    height:50px;
+   
+   margin-left: 300px;
+    margin-top: -1700px;
+}
+.containerA
+{
+    width:960px;
+    height:1700px;
+   
+    margin-left: 80px;
+    margin-top: -1850px;
+}
+.box15
+{
+    width:800px;
+    height:50px;
+
+    margin-left: 20px;
+}
+#Input
+{
+    width:600px;
+    height:40px;
+    border:1px solid gray;
+    border-radius: 5px;
+}
+#button
+{
+    width:100px;
+    height:45px;
+    border:1px solid gray;
+    border-radius: 25px;
+    margin-left: 50px;
+}
+.box16 {
+    width: 1000px;
+    overflow: hidden; /* Clear the float to avoid layout issues */
+  }
+  .box16 div {
+    box-sizing: border-box;
+    width: 33.33%; /* Set the width to 33.33% for a 3x3 layout */
+    float: left; /* Float the items to create a grid */
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  .item-text {
+    margin-top: -20px;
+    margin-left: 20px;
+    
+  }
+  
+  #image1 {
+    width: 270px; /* Make sure the image takes the full width of its container */
+    height: 170px; /* Maintain aspect ratio */
+    display: block; /* Remove default inline-block spacing */
+    /* Add margin as needed */
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+   
+   
+  }
+  #hotelname
+  {
+    font-size: 23px;
+    color: black;
+  }
+  #rating
+  {
+    color:green;
+    font-size: 20px;
+    margin-top: -20px;
+  }
+  #shopname
+  {
+    font-size: 15px;
+    margin-top: -15px;
+  }
+  #location
+  {
+    margin-top: -10px;
+  }
