@@ -1,12 +1,12 @@
 // Layout.jsx
 import React from 'react';
-import Header from './Header'; // Adjust the path based on the actual location of Header.jsx
-import Sidebar from './Sidebar'; // Adjust the path based on the actual location of Sidebar.jsx
+import Header from './Header';
+import Sidebar from './Sidebar';
 
 function Layout({ children }) {
   return (
     <div>
-      <Header /> {/* Add the Header component here */}
+      <Header />
       <div style={{ display: 'flex' }}>
         <Sidebar />
         <main style={{ flex: 1 }}>{children}</main>

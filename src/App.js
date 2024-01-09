@@ -1,16 +1,16 @@
 // AppRouter.jsx
 import React from 'react';
 import { Routes, Route, Outlet } from 'react-router-dom';
-import About from './Component.jsx/About';
-import Contact from './Component.jsx/Contact';
-import Help from './Component.jsx/Help';
-import Home from './Component.jsx/Home';
-import Login from './Component.jsx/Login';
-import Layout from './Component.jsx/Layout';
-import Header from './Component.jsx/Header';
-import HotelList from './Component.jsx/HotelList';
-import HotelDetails from './Component.jsx/HotelDetails';
-import Item from './Component.jsx/Item';
+import About from './Component/About';
+import Contact from './Component/Contact';
+import Help from './Component/Help';
+import Home from './Component/Home';
+import Login from './Component/Login';
+import Layout from './Component/Layout';
+import Header from './Component/Header';
+import HotelList from './Component/HotelList';
+import HotelDetails from './Component/HotelDetails';
+import Item from './Component/Item';
 
 function AppRouter() {
   return (
